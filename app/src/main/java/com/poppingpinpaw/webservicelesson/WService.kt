@@ -9,4 +9,7 @@ interface WService {
 
     @GET("photos")
     fun getPosts(): Call<List<Post>>
+
+    @GET("photos")
+    fun getPostss(): Call<List<Post>>
 }
